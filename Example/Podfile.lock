@@ -1,0 +1,26 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - LKDBHelper (2.5.1):
+    - LKDBHelper/standard (= 2.5.1)
+  - LKDBHelper/standard (2.5.1):
+    - FMDB
+  - QRDataCache (0.1.0):
+    - LKDBHelper
+
+DEPENDENCIES:
+  - QRDataCache (from `../`)
+
+EXTERNAL SOURCES:
+  QRDataCache:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  LKDBHelper: 9a276ba51f2e16263d46a9517e16cc9b03472664
+  QRDataCache: bcecab891ef804c727a2b3c8b4ba3207b9ea70da
+
+PODFILE CHECKSUM: 52787f4916effefa2731ed62d4663ed2d4f9218b
+
+COCOAPODS: 1.4.0

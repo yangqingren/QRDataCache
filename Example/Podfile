@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QRDataCache_Example' do
+  pod 'QRDataCache', :path => '../'
+
+  target 'QRDataCache_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

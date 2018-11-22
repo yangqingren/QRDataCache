@@ -1,0 +1,6 @@
+framework module QRDataCache {
+  umbrella header "QRDataCache-umbrella.h"
+
+  export *
+  module * { export * }
+}
