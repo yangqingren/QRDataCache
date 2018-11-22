@@ -11,6 +11,26 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+    /**
+     存储
+     */
+    + (BOOL)saveDataToDB:(id)model key:(NSString *)key;
+
+    /**
+     读取
+     */
+    + (id)getDataByClass:(Class)className key:(NSString *)key;
+
+    /**
+     删除数据
+     */
+    + (BOOL)deleteDataWithKey:(NSString *)key;
+
+    /**
+     删除所有数据
+     */
+    + (BOOL)deleteAllData;
+
 ## Installation
 
 QRDataCache is available through [CocoaPods](https://cocoapods.org). To install
